@@ -15,4 +15,9 @@ public class DemoController {
     public String sayHelloDear() {
         return "Hello dear from Spring Boot!";
     }
+
+    @GetMapping("/dear")
+    public String sayDear() {
+        return "Dear from Spring Boot!";
+    }
 }
