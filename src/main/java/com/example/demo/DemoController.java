@@ -8,6 +8,11 @@ public class DemoController {
 
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello asda from Spring Boot!";
+        return "Hello from Spring Boot!";
+    }
+
+    @GetMapping("/hello/dear")
+    public String sayHelloDear() {
+        return "Hello dear from Spring Boot!";
     }
 }
